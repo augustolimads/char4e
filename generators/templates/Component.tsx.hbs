@@ -1,0 +1,12 @@
+import { Box, Text } from '@chakra-ui/react';
+import { {{pascalCase name}}Props, use{{pascalCase name}} } from './index';
+
+export const {{pascalCase name}} = (props:{{pascalCase name}}Props) => {
+  const {result} = use{{pascalCase name}}()
+
+  return (
+    <Box>
+      <Text fontSize='md'>{{pascalCase name}}</Text>
+    </Box>
+  );
+}

@@ -1,0 +1,14 @@
+# Criando um novo projeto a partir do boilerplate
+- atualize o node para a versão LTS mais recente compatível com nextjs
+    - `nvm install`
+- instale o next: `yarn create next-app`
+- copie o `.editorconfig`
+- copie o `.lintstagedrc.js`
+- instale: `yarn add -D --exact prettier eslint-config-prettier`
+- copie o arquivo de config do prettier: `.prettierrc.json`
+- copie: `.vscode/settings.json` com as configurações internas
+- instale: `yarn add -D jest jest-environment-jsdom @testing-library/react @testing-library/jest-dom`
+- copie: `jest.config.mjs`
+- crie os envs: `.env.development` `.env.local` `.env.production`
+- instale: `yarn add -D plop`
+- copie: 
